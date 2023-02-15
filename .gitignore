@@ -1,0 +1,14 @@
+/data/logs/*
+/data/cache/*
+/data/upload/*
+/data/preferences/*
+/data/.backup/*
+/data/config.php
+/data/config-internal.php
+/data/tmp/*
+
+/node_modules
+/npm-debug.log
+
+
+/install/config.php

@@ -1,0 +1,86 @@
+{
+    "fields": {
+        "addPhotos": {
+            "type": "attachmentMultiple",
+            "sourceList": [],
+            "accept": [],
+            "isCustom": true
+        },
+        "addLinks": {
+            "type": "array",
+            "storeArrayValues": true,
+            "noEmptyString": true,
+            "isCustom": true
+        },
+        "typeLead": {
+            "type": "enum",
+            "options": [
+                "Физическое лицо",
+                "Юридическое лицо"
+            ],
+            "style": {
+                "Физическое лицо": null,
+                "Юридическое лицо": null
+            },
+            "default": "Физическое лицо",
+            "isCustom": true
+        },
+        "type": {
+            "options": [
+                "Customer",
+                "Provider"
+            ],
+            "style": {
+                "Customer": null,
+                "Provider": null
+            },
+            "default": "Customer"
+        },
+        "industry": {
+            "style": {
+                "Restaurant , Cafe": null,
+                "Loft, Banquet room, Conference room": null,
+                "Hotel": null,
+                "Catering": null,
+                "Photographer": null,
+                "Video_operator": null,
+                "Music_band": null,
+                "Decorator": null,
+                "Florist": null,
+                "Animator": null,
+                "Technical_equipment": null,
+                "Interpreter, Guide": null,
+                "Rent_a_Car": null,
+                "Other": null
+            },
+            "options": [
+                "Restaurant , Cafe",
+                "Loft, Banquet room, Conference room",
+                "Hotel",
+                "Catering",
+                "Photographer",
+                "Video_operator",
+                "Music_band",
+                "Decorator",
+                "Florist",
+                "Animator",
+                "Technical_equipment",
+                "Interpreter, Guide",
+                "Rent_a_Car",
+                "Other"
+            ],
+            "default": "Restaurant , Cafe",
+            "isSorted": false
+        }
+    },
+    "links": {
+        "addPhotos": {
+            "type": "hasChildren",
+            "entity": "Attachment",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "relationName": "attachments",
+            "disabled": true
+        }
+    }
+}

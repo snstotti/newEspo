@@ -1,0 +1,69 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                }
+            ],
+            [
+                false,
+                {
+                    "name": "typeLead"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "industry"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "addPhotos"
+                },
+                {
+                    "name": "addLinks"
+                }
+            ],
+            [
+                false,
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Details"
+    }
+]

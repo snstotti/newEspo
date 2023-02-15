@@ -1,0 +1,36 @@
+{
+    "fields": {
+        "addPhotos": "Добавить Фото",
+        "addLinks": "Добавить ссылки",
+        "typeLead": "Тип контрагента",
+        "industry": "Тип поставщика"
+    },
+    "options": {
+        "addLinks": [],
+        "typeLead": {
+            "Физическое лицо": "Физическое лицо",
+            "Юридическое лицо": "Юридическое лицо"
+        },
+        "type": {
+            "": "",
+            "Customer": "Заказчик",
+            "Provider": "Поставщик"
+        },
+        "industry": {
+            "Restaurant , Cafe": "Ресторан/Кафе",
+            "Loft, Banquet room, Conference room": "Лофт/Банкетный зал/Конференц-зал",
+            "Hotel": "Гостиница",
+            "Catering": "Кейтеринг",
+            "Photographer": "Фотограф",
+            "Video_operator": "Видео оператор",
+            "Music_band": "Музыкальная группа",
+            "Decorator": "Декоратор",
+            "Florist": "Флорист",
+            "Animator": "Аниматор",
+            "Technical_equipment": "Техническое оборудование",
+            "Interpreter, Guide": "Переводчик/гид",
+            "Rent_a_Car": "Аренда автомобилей",
+            "Other": "Другое"
+        }
+    }
+}

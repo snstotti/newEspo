@@ -1,0 +1,19 @@
+{
+    "dynamicLogic": {
+        "fields": {
+            "industry": {
+                "readOnly": null,
+                "invalid": null,
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "equals",
+                            "attribute": "type",
+                            "value": "Provider"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
